@@ -1,0 +1,85 @@
+body{
+    background: url(https://www.imagesource.com/wp-content/uploads/2019/06/Rio.jpg) no-repeat center fixed;
+    background-size: cover;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+.container {
+    background: rgba(3, 3, 55, 0.5);
+    width: 30rem;
+    height: 30rem;
+    margin: auto;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+header{
+    text-align: center;
+    vertical-align: middle;
+    line-height: 2rem;
+    height: 3rem;
+    background-color: rgba(3, 3, 55, 0.5);
+    font-size: 24px;
+    color: white;
+}
+
+fieldset{
+    border: 0;
+    text-align: center;
+}
+
+
+input[type="submit"]{
+    background-color: rgba(235, 30, 54, 1);
+    border: 0;
+    display: block;
+    width: 40%;
+    margin: 0 auto;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+}
+
+#login{
+    background-color: rgba(147, 178, 21, 0.3);
+    border: 0;
+    display: block;
+    width: 30%;
+    margin: 0 auto;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+    text-decoration: none;
+    border-radius: 8px;
+}
+
+.username{
+    background: transparent;
+    border: 1px dotted;
+    border-left: 3px solid;
+    padding: 10px;
+    width: 70%;
+    color: white;
+}
+
+#login:hover{
+    background-color: rebeccapurple;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="tel"]:focus,
+input[type="password"]:focus{
+   outline: 0;
+   background-color: rgba(235, 30, 54, 0.3);
+   border-radius: 20px;
+   border-color: transparent;
+}
+
+::placeholder{
+    color: #d3d3d3;
+}
